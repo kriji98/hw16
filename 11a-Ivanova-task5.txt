@@ -1,0 +1,13 @@
+function [res1, res2] = prog(a, b, c)
+  if(a < b)
+    res1 = 1;
+  else
+    res1 = -1;
+  endif
+  
+  if((b-a) == (c-b))
+    res2 = 0;
+  else
+    res2 = 1;
+  endif 
+endfunction

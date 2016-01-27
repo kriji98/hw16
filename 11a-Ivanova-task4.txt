@@ -1,0 +1,3 @@
+function [res1, res2] = prog(a)
+  [res1, res2] = rat(a)
+endfunction
